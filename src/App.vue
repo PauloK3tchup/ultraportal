@@ -1,10 +1,33 @@
 <script>
 // import { RouterLink, RouterView } from 'vue-router'
-import VideoBackground from 'vue-responsive-video-background-player'
+import FooterComp from './components/FooterComp.vue'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {
+  faEnvelope,
+  faPencil,
+  faPhone,
+  faShoppingCart,
+  faTrashCan
+} from '@fortawesome/free-solid-svg-icons'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
+
+library.add(
+  faShoppingCart,
+  faSearch,
+  faBars,
+  faTrashCan,
+  faPencil,
+  faGithub,
+  faEnvelope,
+  faPhone,
+  faInstagram
+)
 
 export default {
   components: {
-    VideoBackground
+    FooterComp
   },
   data() {
     return {
@@ -39,23 +62,17 @@ export default {
       </nav>
     </div> -->
     <div class="header-direita">
-      <a href="">Sobre</a>
+      <a href="#sobre">Sobre</a>
       <a href="">Estratégias</a>
       <a href="">Speedruns</a>
     </div>
   </header>
   <body>
-    <video-background
-      src="../src/assets/ultravideo.mp4"
-      overlay="linear-gradient(0deg,#000000,#fb949e6b)"
-      style="max-height: 600px; height: 500vh"
-    >
-      <h1 class="dentro">ULTRAPORTAL</h1>
-      <h3 class="dentro">Aprenda e decimar o inferno com eSSStilo!</h3>
-    </video-background>
     <RouterView />
   </body>
-  <footer></footer>
+  <footer>
+    <FooterComp />
+  </footer>
 </template>
 
 <style scoped>
@@ -65,14 +82,6 @@ body {
   background-color: rgb(0, 0, 0);
   color: white;
   overflow-x: hidden;
-}
-
-h1.dentro {
-  font-family: BroshK;
-  font-size: 10rem;
-  color: white;
-  text-align: center;
-  margin-top: 45vh;
 }
 
 header {

@@ -1,1 +1,8 @@
 @import './base.css';
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -55px;
+  visibility: hidden;
+}

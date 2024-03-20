@@ -4,7 +4,7 @@ import VideoBackground from 'vue-responsive-video-background-player'
 
 <template>
   <video-background
-    src="../src/assets/ultravideo.mp4"
+    src="../src/assets/mp4/ultravideo.mp4"
     overlay="linear-gradient(0deg,#000000,#80000085)"
     style="max-height: 600px; height: 500vh"
   >

@@ -23,9 +23,9 @@ export default {
 </script>
 <template>
   <header :class="{ onScroll: !view.topOfPage }">
-    <h1>ULTRAPORTAL</h1>
+    <a href="#"> <h1>ULTRAPORTAL</h1></a>
     <div class="header-direita">
-      <a href="#sobre">Sobre</a>
+      <a href="#sobre"> Sobre</a>
       <a href="#strats">Estratégias</a>
       <a href="#speeds">Speedruns</a>
     </div>

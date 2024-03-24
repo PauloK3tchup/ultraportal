@@ -30,10 +30,13 @@ a#speeds {
   text-shadow: 2px 2px 8px #000000;
 }
 
+.italico {
+  font-style: italic;
+}
+
 .ultratexto-mini {
   font-family: VCR;
   font-size: 16px;
-  color: red;
 }
 
 .vermelho {

@@ -21,11 +21,11 @@
     <h1 v-motion-slide-visible-right class="negrito">Mas sobre o que é o jogo?</h1>
     <br />
     <p v-motion-slide-visible-left>
-      <span class="ultratexto-mini">A Humanidade morreu</span>
+      <span class="ultratexto-mini vermelho">A Humanidade morreu</span>
       <br />
-      <span class="ultratexto-mini">O Sangue é combustível</span>
+      <span class="ultratexto-mini vermelho">O Sangue é combustível</span>
       <br />
-      <span class="ultratexto-mini negrito">O Inferno está cheio</span>
+      <span class="ultratexto-mini vermelho negrito">O Inferno está cheio</span>
       <br />
       <br />
       Máquinas movidas a sangue foram criadas para lutar em guerras, mas a humanidade perdeu o
@@ -39,30 +39,37 @@
       pontos e humilhar as criaturas que ousarem cruzar seu caminho. Massacre demônios, anjos e
       todas as outras criaturas que se escondem nesse palácio de dor e sofrimento. <br />
       <br />
-      <span class="ultratexto-mini">O Inferno nunca foi tão divertido!</span>
+      <span class="ultratexto-mini vermelho">O Inferno nunca foi tão divertido!</span>
     </p>
   </div>
   <div class="mais-info preto">
     <h1 v-motion-slide-visible-right class="negrito">E como ele é jogado?</h1>
     <br />
     <p v-motion-slide-visible-left>
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-      bla bla bla bla bla bla bla bla bla bla
+      O jogo possui um ritmo extremamente rápido, conta com vários tipos de demônios, máquinas,
+      anjos e etc. para destruir e as únicas forma de curar é executando
+      <span class="negrito">parry</span> e se banhando no
+      <span class="negrito vermelho">sangue dos seus inimigos</span>. ULTRAKILL também possui uma
+      variedade de armas diferentes que são desbloqueadas ao longo da jornada, mas existe uma
+      característica nelas que se destaca em relação à outros jogos do gênero:
+      <span class="negrito">a munição é <span class="vermelho negrito">infinita</span></span
+      >. <br />
+      O jogo se baseia em um sistema de <span class="negrito">estilo</span>, em que você ganha
+      pontos por executar combinações entre as armas ou por matar os inimigos de um jeito estiloso
+      no geral. Esse "medidor de estilo" ajuda você a se manter vivo, pois ele diminui o seu
+      <span class="negrito">hard damage</span>, que é um tipo de dano no jogo que te impede de
+      curar. Mas, não existe nada no jogo que te impeça de jogar o jogo todo com a pistola, ou com a
+      escopeta e etc., então jogue do jeito que você quiser e simplesmente divirta-se!
+      <br />
+      <br />
+      <span class="ultratexto-mini italico"
+        >"Se o jogo tivesse munição, os jogadores iriam querer utilizar as armas do modo mais
+        eficiente ao invés do modo mais divertido, e eu não quero isso"
+      </span>
+      <br />
+      <span class="ultratexto-mini">
+        - Hakita, Criador do jogo (não foi exatamente isso que ele disse mas foi parecido)</span
+      >
     </p>
   </div>
 </template>

@@ -32,4 +32,12 @@ div.jogo a {
 div.jogo a:hover {
   text-decoration: underline;
 }
+@media only screen and (max-width: 660px) {
+  div.jogo h1 {
+    font-size: 30px;
+  }
+  div.jogo a {
+    font-size: 20px;
+  }
+}
 </style>

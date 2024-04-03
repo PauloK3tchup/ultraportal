@@ -65,3 +65,15 @@
   background-image: url(../assets/img/probost.gif);
   font-family: VCR;
 }
+
+@media only screen and (max-width: 1111px) {
+  .Opção {
+    width: 300px;
+    min-height: 150px;
+    max-width: 300px;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    margin-bottom: 20px;
+  }
+}

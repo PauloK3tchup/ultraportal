@@ -1,5 +1,10 @@
 <script>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 export default {
+  components: {
+    FontAwesomeIcon
+  },
   data() {
     return {
       view: {
@@ -23,11 +28,18 @@ export default {
 </script>
 <template>
   <header :class="{ onScroll: !view.topOfPage }">
-    <a href="#"> <h1>ULTRAPORTAL</h1></a>
+    <a class="title" href="#"> <h1>ULTRAPORTAL</h1></a>
     <div class="header-direita">
-      <a href="#sobre"> Sobre</a>
-      <a href="#strats">Estratégias</a>
-      <a href="#speeds">Speedruns</a>
+      <div :class="{ onScroll: !view.topOfPage }" id="drop">
+        <h3 class="bruh">
+          <FontAwesomeIcon icon="fa-bars" />
+        </h3>
+        <div class="baixo">
+          <a href="#sobre"> Sobre</a>
+          <a href="#strats">Estratégias</a>
+          <a href="#speeds">Speedruns</a>
+        </div>
+      </div>
     </div>
   </header>
 </template>
@@ -77,5 +89,52 @@ a:active {
   color: white;
   background-color: black;
   transform: scale(0.9);
+}
+
+.bruh {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .title,
+  h1 {
+    font-size: 2rem;
+  }
+  .title {
+    margin-left: -2px;
+  }
+  a {
+    margin: 0 0.5rem;
+    padding: 3px;
+  }
+
+  #drop:hover .baixo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    right: 0;
+  }
+
+  .bruh {
+    flex-direction: column;
+    display: block;
+  }
+
+  .baixo {
+    transition: 0.15s;
+    flex-direction: column;
+    display: none;
+    align-items: flex-start;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  #drop {
+    display: flex;
+    transition: 0.15s;
+  }
 }
 </style>

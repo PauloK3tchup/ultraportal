@@ -159,4 +159,57 @@ div.mais-info {
   color: white;
   background-color: rgb(0, 0, 0);
 }
+
+@media only screen and (max-width: 660px) {
+  .container-fluid {
+    display: block;
+    width: 100%;
+  }
+  div.artigo {
+    width: 95%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    display: block;
+  }
+  div.foto {
+    display: none;
+  }
+  div.artigo p {
+    font-size: 13px;
+    display: block;
+  }
+
+  div.artigo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  div.mais-info {
+    padding: 20px;
+  }
+
+  div.mais-info h1 {
+    font-size: 25px;
+  }
+
+  div.mais-info p {
+    font-size: 12px;
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 661px) and (max-width: 1270px) {
+  .container-fluid {
+    display: block;
+    width: 100%;
+  }
+  div.artigo {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  div.foto {
+    width: 100%;
+  }
+}
 </style>

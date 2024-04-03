@@ -36,4 +36,13 @@ div.estrategias h1 {
   text-align: center;
   color: black;
 }
+
+@media only screen and (max-width: 1111px) {
+  div.botoes {
+    flex-direction: column;
+  }
+  div.estrategias h1 {
+    font-size: 30px;
+  }
+}
 </style>

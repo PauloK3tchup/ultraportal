@@ -30,4 +30,15 @@ h3.dentro {
   text-align: center;
   margin-top: -55px;
 }
+
+@media only screen and (max-width: 850px) {
+  h1.dentro {
+    font-size: 3.5rem;
+    margin-top: 450px;
+  }
+  h3.dentro {
+    font-size: 0.8rem;
+    margin-top: 0px;
+  }
+}
 </style>

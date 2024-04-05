@@ -52,6 +52,7 @@ body {
   background-color: rgb(0, 0, 0);
   color: white;
   overflow-x: hidden;
+  overflow-y: hidden;
   min-height: 1200px;
 }
 </style>

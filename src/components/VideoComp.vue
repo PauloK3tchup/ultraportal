@@ -4,6 +4,7 @@ import VideoBackground from 'vue-responsive-video-background-player'
 
 <template>
   <video-background
+    class="b"
     src="../src/assets/mp4/ultravideo.mp4"
     overlay="linear-gradient(0deg,#000000,#80000085)"
     style="max-height: 600px; height: 500vh"
@@ -21,6 +22,11 @@ h1.dentro {
   color: white;
   text-align: center;
   margin-top: 410px;
+}
+
+.b {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 h3.dentro {
